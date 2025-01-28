@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .text-glow {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                   0 0 20px rgba(255, 255, 255, 0.6), 
+                   0 0 30px rgba(255, 255, 255, 0.4);
+    }
+  }
+  
+/* scrollbar class */
+.scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: #4A5568 #1A202C !important;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 8px !important;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: #1A202C !important;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4A5568 !important;
+  border-radius: 10px !important;
+  border: 2px solid #1A202C !important;
+}
+
+input:focus {
+  border-color: default;
+  background-color: default;
+  outline: none;
+}
