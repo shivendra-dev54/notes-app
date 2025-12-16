@@ -10,7 +10,7 @@ Heart Notes is a note-taking application built with a React frontend and an Expr
 - Responsive design
 
 ## Project Structure
-
+```
 notes-app-api/
 ├── .env
 ├── Config/
@@ -53,6 +53,7 @@ notes-app-frontend/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ## Getting Started
 
