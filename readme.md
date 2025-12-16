@@ -72,6 +72,7 @@ notes-app-frontend/
 
 
 3. Create a .env file in the notes-app-api directory and add the following environment variables:
+   ```
     PORT=64001
     DB_STRING=<your_mongodb_connection_string>
     JWT_SECRET_TOKEN=<your_jwt_secret>
@@ -80,26 +81,30 @@ notes-app-frontend/
     FORBIDDEN=403
     NOT_FOUND=404
     INTERNAL_SERVER_ERROR=500
-
+    ```
 
 4. Start the backend server:
+   ```
     npm run dev
-
+    ```
 
 
 ### Frontend Setup
 
 1. Navigate to the notes-app-frontend directory:
+    ```
     cd notes-app-frontend
-
+    ```
 
 2. Install the dependencies:
-    npm install
+```
+   npm install
+```
 
-
-3. Start the frontend development server:
+4. Start the frontend development server:
+    ```
     npm run dev
-
+    ```
 
 
 ### API Endpoints
